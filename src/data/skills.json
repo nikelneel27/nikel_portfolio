@@ -1,0 +1,34 @@
+[
+    {
+        "key": "html5",
+        "name": "HTML5"
+    },
+    {
+        "key": "css3",
+        "name": "CSS3"
+    },
+    {
+        "key": "js",
+        "name": "Javascript"
+    },
+    {
+        "key": "vuejs",
+        "name": "Vue Js"
+    },
+    {
+        "key": "react",
+        "name": "React Js"
+    },
+    {
+        "key": "bootstrap",
+        "name": "Bootstrap"
+    },
+    {
+        "key": "git-alt",
+        "name": "Git"
+    },
+    {
+        "key": "figma",
+        "name": "Figma"
+    }
+]
