@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b85cc9f3.chunk.css",
+    "main.js": "/static/js/main.404c2afd.chunk.js",
+    "main.js.map": "/static/js/main.404c2afd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.51e238d9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.51e238d9.js.map",
+    "static/js/2.e7739357.chunk.js": "/static/js/2.e7739357.chunk.js",
+    "static/js/2.e7739357.chunk.js.map": "/static/js/2.e7739357.chunk.js.map",
+    "static/js/3.b6b1e14c.chunk.js": "/static/js/3.b6b1e14c.chunk.js",
+    "static/js/3.b6b1e14c.chunk.js.map": "/static/js/3.b6b1e14c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b85cc9f3.chunk.css.map": "/static/css/main.b85cc9f3.chunk.css.map",
+    "static/js/2.e7739357.chunk.js.LICENSE.txt": "/static/js/2.e7739357.chunk.js.LICENSE.txt",
+    "static/media/ImageSearch.26f73c55.png": "/static/media/ImageSearch.26f73c55.png",
+    "static/media/dunder-mifflin.57cf0769.png": "/static/media/dunder-mifflin.57cf0769.png",
+    "static/media/logo.1185bccd.svg": "/static/media/logo.1185bccd.svg",
+    "static/media/nikel.0a4fc43b.png": "/static/media/nikel.0a4fc43b.png",
+    "static/media/petsmeetup.583dc41c.png": "/static/media/petsmeetup.583dc41c.png",
+    "static/media/portlogo1.d250ab88.svg": "/static/media/portlogo1.d250ab88.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.51e238d9.js",
+    "static/js/2.e7739357.chunk.js",
+    "static/css/main.b85cc9f3.chunk.css",
+    "static/js/main.404c2afd.chunk.js"
+  ]
+}
