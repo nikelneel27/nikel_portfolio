@@ -19,11 +19,11 @@ const LinksWrapper = styled.ul`
   height: 100%;
   list-style: none;
   background-color: aliceblue;
-  width: 70%;
+  width: 63%;
   flex-direction: column;
   position: fixed;
   top: 0px;
-  left: 30%;
+  left: 27%;
 `;
 
 const navList = ["About", "Work", "Skills", "Experience", "Contact"];
@@ -43,7 +43,7 @@ const MobileNavLinks = () => {
       {isOpen && (
         <Slide direction={'left'} in={true} mountOnEnter unmountOnExit>
           <LinksWrapper>
-            <i className={`fas fa-bars fa-2x`} isOpen={isOpen} onClick={() => setOpen(!isOpen)} ></i>
+            <i className={`fas fa-times fa-2x`} style={{ textAlign: 'end' }} isOpen={isOpen} onClick={() => setOpen(!isOpen)} ></i>
             {navList.map((item, index) => (
               <li key={index + 1} className={styles.navLink} style={{ padding: "20px" }}>
                 <a href={`#${item}`} onClick={handleClick}>{item}</a>
