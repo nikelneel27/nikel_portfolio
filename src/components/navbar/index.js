@@ -17,7 +17,7 @@ const Navbar = () => {
                             <li><a href={`#${e}`}>{e}</a></li>
                         ))}
                         <li>
-                            <div className="div-resume"><a className="resume-download" href="./resume/nikel.pdf" download>Resume</a>
+                            <div className="div-resume"><a className="resume-download" href="Resume/123.pdf" download>Resume</a>
                             </div>
                         </li>
 

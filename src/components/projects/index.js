@@ -30,7 +30,7 @@ const Projects = () => {
                     fugit officiis sequi ipsa commodi et rerum fugiat.</p>
                 </div>
             </div>
-            <a href="https://dunder-mil.netlify.app/" target="_blank"> <img src={petsmeetup}
+            <a href="https://pets-meetup-vue.netlify.app/" target="_blank"> <img src={petsmeetup}
                 alt="featured" /></a>
             <div className="section-border"></div>
 
