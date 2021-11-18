@@ -1,7 +1,7 @@
 import React from 'react';
 import Rentomojo from '../assets/images/logo.svg'
 import TY from '../assets/images/ty.png'
-import ITC from '../assets/images/itc.png'
+import ITC from '../assets/images/itc-lo.jpeg'
 const Experience = () => {
 
     return (
@@ -12,8 +12,9 @@ const Experience = () => {
                         <div className="icon-contianer one">
                             <img src={Rentomojo} alt="Rentomojo" />
                         </div>
-                        <p className="skill-title"> Rentomojo</p>
-                        <p className="featured-desc skills-desc">Senior SDET</p>
+                        <div class="occ"><p className="skill-title"> Rentomojo</p>
+                            <p className="featured-desc skills-desc">Senior SDET</p></div>
+
                     </li>
 
                     <li className="transition2">

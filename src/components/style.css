@@ -399,13 +399,6 @@ span.skills-captera-title {
   .contact .contact-form h3 {
     font-weight: 400;
   }
-  .location {
-    display: unset;
-    width: 100%;
-    background: #150734;
-    color: #ffff00;
-    padding-top: 20px;
-  }
   .skills {
     margin-top: -5em;
     margin-bottom: -7em;
