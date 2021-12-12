@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -267,6 +268,10 @@ span.skills-captera-title {
   font-size: 1.3em;
 }
 
+.section-border {
+  margin: 20px 0;
+}
+
 .contact-form div input::-webkit-input-placeholder {
   color: #b9b8b8;
   text-align: center;
@@ -343,24 +348,29 @@ span.skills-captera-title {
   .featured, .portfolio {
     text-align: left;
   }
+
   .featured, .portfolio-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 40% auto;
     grid-template-columns: 40% auto;
   }
+
   .left, .portfolio-left {
     display: -ms-grid;
     display: grid;
     place-content: center;
   }
+
   .right {
     margin-left: 2em;
     margin-top: 1em;
   }
+
   .contactFeature {
     padding: 0;
   }
+
   .contact {
     display: -ms-grid;
     display: grid;
@@ -368,42 +378,53 @@ span.skills-captera-title {
     grid-template-columns: 40% auto;
     background: #150734;
   }
+
   .contact input {
     width: 250px;
     height: 30px;
   }
+
   .contact input::-webkit-input-placeholder {
     font-size: 1.3em;
   }
+
   .contact input:-ms-input-placeholder {
     font-size: 1.3em;
   }
+
   .contact input::-ms-input-placeholder {
     font-size: 1.3em;
   }
+
   .contact input::placeholder {
     font-size: 1.3em;
   }
+
   .contact h3 {
     font-size: 1.6em;
   }
+
   .contact button {
     width: 100px;
     height: 30px;
     font-size: 1.3em;
   }
+
   .contact .contact-form {
     background: #150734;
     place-items: center;
   }
+
   .contact .contact-form h3 {
     font-weight: 400;
   }
+
   .skills {
     margin-top: -5em;
     margin-bottom: -7em;
     padding-top: 7em;
   }
+
   .skills-container ul {
     display: flex;
     display: -ms-grid;
@@ -412,12 +433,15 @@ span.skills-captera-title {
     grid-template-columns: repeat(4, auto);
     grid-gap: 1em;
   }
+
   .portfolio-container {
     margin-top: 4em;
   }
+
   .portfolio-container img {
     margin-left: 2em;
   }
+
   .footer i {
     font-size: 40px;
   }
@@ -427,6 +451,7 @@ span.skills-captera-title {
   .hero {
     height: 90vh;
   }
+
   .nav-container {
     display: -ms-grid;
     display: grid;
@@ -435,18 +460,23 @@ span.skills-captera-title {
     grid-template-columns: 66% auto;
     background: unset;
   }
+
   .header-left {
     background: #150734;
   }
+
   .social-header {
     padding-right: 4em;
   }
+
   section {
     padding: 4em;
   }
+
   .social-header {
     display: block;
   }
+
   .social-header ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -457,9 +487,11 @@ span.skills-captera-title {
     width: 9em;
     float: right;
   }
+
   .social-header ul img {
     width: 40px;
   }
+
   .hero {
     display: -ms-grid;
     display: grid;
@@ -468,28 +500,34 @@ span.skills-captera-title {
     background: unset;
     padding: 0;
   }
+
   .hero .content {
     background: #150734;
     padding: 6em 8em 6em 4em;
     text-align: left;
   }
+
   .hero .content h1 {
     font-size: 3em;
     line-height: 1.2em;
     color: #deb992;
   }
+
   .meet {
     margin: unset !important;
   }
+
   .meet p {
     font-size: 1.8rem;
   }
+
   .hero-design {
     display: unset;
     width: 100%;
     margin-left: -20%;
     margin-top: 50%;
   }
+
   .portfolio img {
     float: right;
     max-width: 500px;
@@ -500,15 +538,19 @@ span.skills-captera-title {
   header {
     padding: 2em 2em 2em 10em;
   }
+
   .social-header {
     padding: 0 8em 2em 0;
   }
+
   section {
     padding: 6em 10em 4em 10em;
   }
+
   .hero .content {
     padding: 4em 10em 6em 8em;
   }
+
   .hero-design {
     margin-top: 30%;
   }
@@ -518,15 +560,19 @@ span.skills-captera-title {
   header {
     padding: 2em 2em 2em 20em;
   }
+
   .social-header {
     padding: 0 16em 2em 0;
   }
+
   section {
     padding: 6em 20em 4em 20em;
   }
+
   .hero .content {
     padding: 9em 20em 6em 20em;
   }
+
   .glowDiv {
     background-color: #110808;
     color: #fff;
@@ -542,6 +588,7 @@ span.skills-captera-title {
     align-items: center;
     justify-items: center;
   }
+
   .glowDiv .glowH {
     color: #4db1bc;
     display: -ms-grid;
@@ -560,18 +607,22 @@ span.skills-captera-title {
     animation: glow 2s ease-in-out infinite alternate;
     text-align: center;
   }
+
   @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 20px #2d9da9;
     }
+
     to {
       text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
     }
   }
+
   @keyframes glow {
     from {
       text-shadow: 0 0 20px #2d9da9;
     }
+
     to {
       text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
     }

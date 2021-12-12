@@ -26,18 +26,34 @@ const Projects = () => {
             <div className="left">
                 <div className="inner transition2">
 
-                    <a href="#" className="featured-title">Pets Meetup</a>
-                    <p className="featured-desc">This app was built to help pet parents  create and register for any pet meet up that is available. It can also be used for conducting adoption drive for Animal  shelters.</p>
-                    <p className="featured-desc">Technologies used :  HTML, CSS, Java Script, Vue,  Vuetify, Firebase</p>
+                    <a href="#" className="featured-title"></a>
+                    <p className="featured-desc"></p>
+                    <p className="featured-desc"></p>
 
 
                 </div>
             </div>
-            <a href="https://pets-meetup-vue.netlify.app/" target="_blank"> <img src={petsmeetup}
+            {/* <a href="https://pets-meetup-vue.netlify.app/" target="_blank"> <img src={petsmeetup}
+                alt="featured" /></a>
+            <div className="section-border"></div> */}
+
+            {/* -----------------   sub project  ------------------ */}
+            <div className="left hidden-project">
+                <div className="inner transition2">
+
+                    <a href="#" className="featured-title">Pets Meetup</a>
+                    <p className="featured-desc">This app was built to help pet parents  create and register for any pet meet up that is available. It can also be used for conducting adoption drive for Animal  shelters.
+
+</p>
+                    <p className="featured-desc">Technologies used :  HTML, CSS, Java Script, Vue,  Vuetify, Firebase</p>
+                </div>
+            </div>
+            <a href="https://image-search-unsplash-api.netlify.app/" target="_blank"> <img src={petsmeetup}
                 alt="featured" /></a>
             <div className="section-border"></div>
 
-            {/* -----------------   sub project  ------------------ */}
+
+            ------------
             <div className="left">
                 <div className="inner transition2">
 
@@ -50,7 +66,6 @@ const Projects = () => {
             </div>
             <a href="https://image-search-unsplash-api.netlify.app/" target="_blank"> <img src={ImageSearch}
                 alt="featured" /></a>
-            <div className="section-border"></div>
         </section>
     )
 }
