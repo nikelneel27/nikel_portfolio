@@ -10,7 +10,7 @@ function SocialLinks() {
       <a
         className={styles.socialIcon}
         target="-blank"
-        href="">
+        href="https://github.com/nikelneel27">
         <i className={`fab fa-github`}></i>
       </a>
 
